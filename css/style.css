@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
 /*
 ! tailwindcss v3.2.6 | MIT License | https://tailwindcss.com
 */
@@ -16,7 +18,7 @@
   /* 2 */
   border-style: solid;
   /* 2 */
-  border-color: #e5e7eb;
+  border-color: currentColor;
   /* 2 */
 }
 
@@ -419,7 +421,7 @@ video {
   display: none;
 }
 
-*, ::before, ::after {
+*, ::before, ::after{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -466,7 +468,7 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-::backdrop {
+::backdrop{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -513,161 +515,212 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.container {
+.container{
   width: 100%;
 }
 
-@media (min-width: 480px) {
-  .container {
+@media (min-width: 480px){
+  .container{
     max-width: 480px;
   }
 }
 
-@media (min-width: 768px) {
-  .container {
+@media (min-width: 768px){
+  .container{
     max-width: 768px;
   }
 }
 
-@media (min-width: 976px) {
-  .container {
+@media (min-width: 976px){
+  .container{
     max-width: 976px;
   }
 }
 
-@media (min-width: 1440px) {
-  .container {
+@media (min-width: 1440px){
+  .container{
     max-width: 1440px;
   }
 }
 
-.mx-auto {
+.mx-auto{
   margin-left: auto;
   margin-right: auto;
 }
 
-.my-4 {
+.my-4{
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
-.inline-block {
+.mx-4{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.mt-3{
+  margin-top: 0.75rem;
+}
+
+.mb-6{
+  margin-bottom: 1.5rem;
+}
+
+.mb-8{
+  margin-bottom: 2rem;
+}
+
+.inline-block{
   display: inline-block;
 }
 
-.flex {
+.flex{
   display: flex;
 }
 
-.list-item {
+.list-item{
   display: list-item;
 }
 
-.hidden {
+.hidden{
   display: none;
 }
 
-.h-8 {
-  height: 2rem;
+.h-60{
+  height: 15rem;
 }
 
-.h-44 {
-  height: 11rem;
-}
-
-.h-56 {
-  height: 14rem;
-}
-
-.h-64 {
-  height: 16rem;
-}
-
-.h-72 {
-  height: 18rem;
-}
-
-.h-full {
-  height: 100%;
-}
-
-.h-fit {
-  height: -moz-fit-content;
-  height: fit-content;
-}
-
-.max-h-none {
-  max-height: none;
-}
-
-.max-h-0 {
-  max-height: 0px;
-}
-
-.max-h-max {
-  max-height: -moz-max-content;
-  max-height: max-content;
-}
-
-.w-10 {
+.w-10{
   width: 2.5rem;
 }
 
-.w-full {
+.w-full{
   width: 100%;
 }
 
-.w-fit {
-  width: -moz-fit-content;
-  width: fit-content;
-}
-
-.list-none {
+.list-none{
   list-style-type: none;
 }
 
-.flex-wrap {
+.flex-col{
+  flex-direction: column;
+}
+
+.flex-wrap{
   flex-wrap: wrap;
 }
 
-.content-center {
+.content-center{
   align-content: center;
 }
 
-.items-center {
+.items-center{
   align-items: center;
 }
 
-.justify-between {
+.justify-between{
   justify-content: space-between;
 }
 
-.p-4 {
+.overflow-hidden{
+  overflow: hidden;
+}
+
+.overflow-x-visible{
+  overflow-x: visible;
+}
+
+.p-4{
   padding: 1rem;
 }
 
-.pr-2 {
+.p-6{
+  padding: 1.5rem;
+}
+
+.pr-2{
   padding-right: 0.5rem;
 }
 
-.pr-6 {
+.pr-6{
   padding-right: 1.5rem;
 }
 
-@media (min-width: 768px) {
-  .md\:flex {
+.font-Kumbh{
+  font-family: Kumbh Sans;
+}
+
+.text-lg{
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-sm{
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.text-xs{
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.text-2xl{
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-4xl{
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-3xl{
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.font-bold{
+  font-weight: 700;
+}
+
+.font-medium{
+  font-weight: 500;
+}
+
+.uppercase{
+  text-transform: uppercase;
+}
+
+.text-orange{
+  --tw-text-opacity: 1;
+  color: rgb(255 125 26 / var(--tw-text-opacity));
+}
+
+.text-very-dark-blue{
+  --tw-text-opacity: 1;
+  color: rgb(29 32 37 / var(--tw-text-opacity));
+}
+
+.text-dark-grayish-blue{
+  --tw-text-opacity: 1;
+  color: rgb(104 112 125 / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px){
+  .md\:flex{
     display: flex;
   }
 
-  .md\:hidden {
+  .md\:hidden{
     display: none;
   }
 
-  .md\:w-1\/2 {
+  .md\:w-1\/2{
     width: 50%;
   }
 
-  .md\:justify-between {
+  .md\:justify-between{
     justify-content: space-between;
   }
 }
